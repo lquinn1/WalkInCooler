@@ -1,4 +1,4 @@
-#Author: Luke Quinn
+Y#Author: Luke Quinn
 #Date: 1/21/2026
 #Title: CoolBot Controller
 #Function: Provides a controller to control a window airconditioner to acieve lower temperatures in a room than the ait conditioner was originally designed for.
@@ -74,13 +74,13 @@ logger:
 # Enable the API for integration with Home Assistant, including encryption for secure communication.
 api:
   encryption:
-    key: "p97Kk5PMQqd+PrebH7TEIzNhwPrxHVqRQnxLKiWZhq0="
+    key: "UseYourOwn"
 
 # === OTA Updates ===
 # Allow Over-The-Air updates with a secure password.
 ota:
   - platform: esphome
-    password: "994a754fd02223e9e8143b409cd1ec76"
+    password: "UseYourOwn"
 
 # === Wi-Fi Configuration ===
 # Configure Wi-Fi settings, including a fallback hotspot in case of connection failure.
