@@ -1,8 +1,8 @@
 #Author: Luke Quinn
 #Date: 1/21/2026
 #Title: CoolBot Controller
-#Function: Provides a controller to control a window airconditioner to acieve lower temperatures in a room than the ait conditioner was originally designed for.
-#It does this by measuring temperatures or the room, the ac fins, and the outside air then through its logic applies current to a resistor to heat up the original controllers thermistor
+#Function: Provides a controller to control a window airconditioner to achieve lower temperatures in a room than the air conditioner was originally designed for.
+#It does this by measuring temperatures of the room, the ac fins, and the outside air then through its logic, applies current to a resistor to heat up the original controllers thermistor
 #to trick the unit it to applying more air conditioning to the desired temperature of a walk in.
 #Credit: Cold Snap Project, https://community.home-assistant.io/t/smart-cooler/819721
 #Enhancement Ideas: Power monitoring, Door Sensor, Notifications outside of HA, Smoke Detector, Lighting, error handeling, encoder for input, door not latched buzzer.
